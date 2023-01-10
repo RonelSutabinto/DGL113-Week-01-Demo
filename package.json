@@ -1,0 +1,25 @@
+{
+  "name": "DGL-113-Week-01-Demo",
+  "packageManager": "yarn@3.3.1",
+  "jest": {
+    "preset": "jest-puppeteer"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@types/jest": "^29.2.5",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^29.3.1",
+    "jest-puppeteer": "^6.2.0",
+    "puppeteer": "^19.4.1"
+  }
+}
